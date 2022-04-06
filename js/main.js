@@ -5,6 +5,7 @@ const swiper = new Swiper('.swiper', {
 
   // effect: "cards",
   slideToClickedSlide: true,
+  
   zoom: true,
 
 
@@ -16,8 +17,8 @@ const swiper = new Swiper('.swiper', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    // nextEl: '.swiper-wrapper',
+    // nextEl: '.swiper-button-next',
+    nextEl: '.swiper-wrapper',
     prevEl: '.swiper-button-prev',
   },
 
@@ -26,3 +27,16 @@ const swiper = new Swiper('.swiper', {
     // el: '.swiper-scrollbar',
   },
 });
+
+
+function full () {
+
+var elem = document.getElementById("swiper");
+
+elem.webkitRequestFullscreen();
+}
+
+
+fullElement = document.getElementById("full")
+
+fullElement.addEventListener("click", full)
