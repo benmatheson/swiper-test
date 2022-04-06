@@ -3,40 +3,46 @@ const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
 
-  // effect: "cards",
+  effect: "cards",
+  // effect: "fade",
+  // effect: "flip",
   slideToClickedSlide: true,
   
-  zoom: true,
+  // zoom: true,
 
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination'
   },
 
 
   // Navigation arrows
-  navigation: {
+  // navigation: false,
+  navigation: 
+  
+  { 
     // nextEl: '.swiper-button-next',
     nextEl: '.swiper-wrapper',
-    prevEl: '.swiper-button-prev',
-  },
+    // prevEl: '.swiper-button-prev'
+  }
 
   // And if we need scrollbar
-  scrollbar: {
-    // el: '.swiper-scrollbar',
-  },
+  // scrollbar: {
+  //   // el: '.swiper-scrollbar',
+  // },
 });
 
 
-function full () {
+// function full () {
 
-var elem = document.getElementById("swiper");
+// var elem = document.getElementById("swiper");
 
-elem.webkitRequestFullscreen();
-}
+// elem.webkitRequestFullscreen();
+
+// }
 
 
-fullElement = document.getElementById("full")
+// fullElement = document.getElementById("full")
 
-fullElement.addEventListener("click", full)
+// fullElement.addEventListener("click", full)
