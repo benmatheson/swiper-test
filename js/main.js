@@ -3,7 +3,11 @@ const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
 
-  // effect: "cards",
+  effect: "cards",
+
+  cardsEffect: {
+  slideShadows: false
+  },
   // effect: "fade",
   // effect: "flip",
   slideToClickedSlide: true,
