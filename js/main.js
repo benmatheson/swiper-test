@@ -7,7 +7,7 @@ const swiper = new Swiper('.swiper', {
   // effect: "fade",
   effect: "flip",
   slideToClickedSlide: true,
-  speed: 10,
+  // speed: 10,
   // zoom: true,
 
 
