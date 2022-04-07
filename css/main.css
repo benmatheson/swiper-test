@@ -122,6 +122,7 @@ img {
 
 
     opacity: 0;
+    display: none;
    }
    
    
@@ -129,6 +130,8 @@ img {
 
 
     opacity: 0;
+    display: none;
+
    }
    
    
