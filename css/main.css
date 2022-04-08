@@ -136,6 +136,21 @@ img {
    
    
    
+
+.textDiv {
+
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family:  Helvetica, sans-serif;
+font-family: 'Fira Code', Arial, sans-serif;
+margin: 2%;
+padding: 2% 10% 2% 10%;
+border: 2px solid #444444;
+/* background-color: rgb(64, 107, 117); */
+background-color: rgb(227, 217, 240);
+color:rgb(35, 22, 51);
+}
+
+
    
    
    
