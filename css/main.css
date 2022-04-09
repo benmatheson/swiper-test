@@ -139,16 +139,22 @@ img {
 
 .textDiv {
 
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-family:  Helvetica, sans-serif;
-font-family: 'Fira Code', Arial, sans-serif;
+/* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+/* font-family:  Helvetica, sans-serif; */
+font-family: 'Fira Mono',  Arial, sans-serif;
 /* margin: 2%; */
 padding: 0% 0% 0% 0%;
 
 /* border: 2px solid #000000; */
 /* background-color: rgb(64, 107, 117); */
+
+/* 
 background-color: rgb(42, 42, 63);
-color:rgb(227, 208, 250);
+color:rgb(227, 208, 250); */
+
+
+color: rgb(42, 42, 63);
+background-color:rgb(241, 248, 250);
 
 
 -webkit-box-shadow:inset 0px 0px 0px 2px #FFFFFF;
